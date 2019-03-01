@@ -20,7 +20,8 @@ document his journey on Nginx module development.
 
    1. Configure Nginx adding this module with:
           
-          ./configure (...) --add-module=/path/to/nginx-hello-world-module
+          Static Module : ./configure (...) --add-module=/path/to/nginx-hello-world-module
+          Dynamic Module: ./configure (...) --add-dynamic-module=/path/to/nginx-hello-world-module
        
    2. Build Nginx as usual with `make`.
    
